@@ -1,2 +1,12 @@
 # DuplicateFileManager
-A Python desktop application for efficiently identifying and managing duplicate files, with a clean and user-friendly interface.
+This is a Python-based desktop application designed to help users efficiently identify, analyze, and manage duplicate files on their system. As storage grows over time, duplicate files often accumulate unnoticed—wasting disk space, slowing down backups, and creating unnecessary clutter. DuplicateFileManager provides a simple, reliable, and user-friendly way to regain control of your files without risking accidental data loss.
+
+The application focuses on accuracy and performance by scanning selected directories and detecting duplicate files based on file attributes and content comparison. Instead of relying only on file names, DuplicateFileManager is built to identify true duplicates, ensuring that files with different names but identical content are also detected. This makes it especially useful for users who manage large collections of documents, images, downloads, or project folders.
+
+DuplicateFileManager is designed as a desktop-first tool, making it suitable for everyday use without requiring internet connectivity or cloud services. The interface is intentionally kept clean and minimal so users can focus on reviewing results and taking action confidently. Duplicate files are presented in an organized manner, allowing users to clearly understand where duplicates exist and decide which files to keep or remove.
+
+Safety is a core principle of the application. DuplicateFileManager does not delete files automatically. Instead, it gives users full control over every action, reducing the risk of accidental data loss. This makes it suitable not only for technical users but also for those who prefer a guided and transparent cleanup process.
+
+From a technical perspective, the project serves as a hands-on exploration of Python desktop application development. It combines file system operations, efficient scanning logic, and a graphical user interface to deliver a practical real-world utility. The project is also structured with maintainability in mind, making it easy to extend with additional features such as advanced filtering, preview support, or exportable reports in the future.
+
+DuplicateFileManager is actively evolving and is being developed as a learning-driven yet production-minded project. It aims to balance usability, performance, and clarity while solving a common problem faced by many users. Contributions, feedback, and suggestions are always welcome as the project continues to grow.
